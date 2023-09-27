@@ -1,0 +1,74 @@
+body{
+    box-sizing: border-box;
+    background-color:rgb(247, 192, 201);
+    color:#2F2A16;
+    text-transform: capitalize;
+    font-size:1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+img{
+    border-radius:100%;
+    box-shadow: 1px 1px 20px 2px #2F2A16;
+}
+
+.form{
+   
+    margin-top:1.5em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    height:60vh;
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+    box-shadow: 1px 1px 30px 2px whitesmoke;
+}
+label{
+    margin-top:.5em;
+}
+
+input{
+  border:1px solid #2F2A16;
+  padding:8px;
+  border-radius:5px;
+}
+
+button{
+    margin-top: 1em;
+    padding:10px 15px;
+    font-size: 1em;
+    font-weight: 300px;
+    border:1px #2F2A16 solid;
+    border-radius: 5px;
+}
+
+.modal{
+  background-color: white;
+  height:40vh;
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  width:100%;
+  display:none;
+}
+span{
+    color:rgb(245, 9, 48);
+}
+
+.closeBtn{
+    color:#2F2A16;
+    background-color: transparent;
+    border:none;
+    font-size:1.5em;
+    font-weight: 700;
+    transition: 250ms;
+    cursor:pointer;
+}
+.closeBtn:hover{
+    color:rgb(245, 9, 48);
+}
